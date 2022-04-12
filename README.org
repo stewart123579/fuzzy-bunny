@@ -1,0 +1,21 @@
+#+TITLE: Fuzzy Bunny
+#+AUTHOR: Stewart V. Wright
+#+DATE: 2022/04/12
+#+LASTMOD: 2022/04/12
+#+EMAIL: stewart@vifortech.com
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:t \n:nil ::t |:t ^:t -:t f:t *:t
+# #+OPTIONS:   tex:t d:(HIDE) tags:not-in-toc
+#+STARTUP:   num
+
+Fuzzy Bunny (~fubu~) is a common lisp library containing (or at least /will/ contain) a
+collection of metrics and phonetic (fuzzy) string matching algorithms.
+
+* Algorithms
+
+** Double Metaphone
+
+Sourced from the [[http://gbbopen.org][GBBopen]] package.  I've imported the code from SVN to git [[https://github.com/stewart123579/GBBopen][here]].
+
+While I'm in the process of updating documentation, please feel free to review
+the original documentation at http://gbbopen.org/hyperdoc/index.html
